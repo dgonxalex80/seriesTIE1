@@ -1,0 +1,36 @@
+name: " "
+output_dir: "docs"
+navbar:
+  title: " "
+  left:
+    - text: " "
+      icon: fa-home
+      href: index.html  
+    - text: "Conceptos básicos"
+      href: recurso101.html
+    - text: "Análisis de datos"
+      menu:      
+        - text: "Análisis de datos"
+          href: recurso102.html      
+        - text: "---------"         
+        - text: "Tablas de frecuencia"
+          href: recurso102A.html            
+        - text: "Indicadores"
+          href: recurso102B.html            
+        - text: "Visualización"
+          href: recurso102C.html 
+    - text: "Software R"
+      menu:
+        - text: "Introducción a R"
+          href: recurso103.html   
+        - text: "---------"    
+        - text: "Tablas"
+          href: recurso103A.html            
+        - text: "Indicadores"
+          href: recurso103B.html            
+        - text: "Visualización"
+          href: recurso103C.html       
+output:
+  html_document:
+      css: style.css
+      theme: paper

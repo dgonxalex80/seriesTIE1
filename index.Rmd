@@ -1,0 +1,38 @@
+---
+title: <span style="color:#034a94"> **Experiencia**</span>
+output:
+html_document:
+css: styles.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA)
+library(summarytools)
+
+
+c1 ="#FF7F00"  # naranja - color primario 
+c2 ="#034A94"  # azul oscuro - color secundario
+c3 ="#0EB0C6"  # azul claro - color terciario
+c4 ="#686868"  # gris - color texto
+
+```
+
+
+<br/><br/>
+
+# <span style="color:#034a94">**Caso C&A**</span>
+
+
+```{r}
+data(cars)
+hist(cars$speed)
+```
+
+
+<div class="content-box-blue">
+### <span style="color:#034a94">**Nota**</span>
+
+
+Tenga encuenta que esta actividad es individual
+
+</div>
